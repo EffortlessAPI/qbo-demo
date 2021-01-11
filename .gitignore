@@ -1,0 +1,7 @@
+**/.ssotme/**/*
+/**/obj/**/*
+/**/bin/**/*
+/**/.vs/**/*
+/DotNet/CLIClassLibrary/CLIClassLibrary.csproj.user
+/package-lock.json
+/REMOVED_GIT_FOLDER/**/*

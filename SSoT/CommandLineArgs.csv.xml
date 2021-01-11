@@ -1,0 +1,133 @@
+<CommandLineArgs>
+  <CommandLineArg>
+    <Name>authenticate</Name>
+    <Description>Authenticate as a user</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>test@test.com</ExampleValue>
+    <SortOrder>1</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>whoami</Name>
+    <Description>Check who you are currently operating as</Description>
+    <DataType>bool</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>whoami</ExampleValue>
+    <SortOrder>2</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>reloadCache</Name>
+    <Description>Reload cache of project types, plans and such</Description>
+    <DataType>bool</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <DefaultValue>FALSE</DefaultValue>
+    <ExampleValue>FALSE</ExampleValue>
+    <SortOrder>3</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>demoPassword</Name>
+    <Description>the user's password</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>pwd123</ExampleValue>
+    <SortOrder>3</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>bodyData</Name>
+    <Description>Raw data provided</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>{'cell…}</ExampleValue>
+    <SortOrder>5</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>bodyFile</Name>
+    <Description>Path to file to use</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>Cell.json</ExampleValue>
+    <SortOrder>6</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>runas</Name>
+    <Description>Who to run as</Description>
+    <DataType>string</DataType>
+    <IsOptional>FALSE</IsOptional>
+    <IsList>FALSE</IsList>
+    <DefaultValue>Guest</DefaultValue>
+    <ExampleValue>Admin</ExampleValue>
+    <SortOrder>7</SortOrder>
+    <Aliases>as</Aliases>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>amqps</Name>
+    <Description>AMQPS Connection String</Description>
+    <DataType>string</DataType>
+    <IsOptional>FALSE</IsOptional>
+    <IsList>FALSE</IsList>
+    <DefaultValue>amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/demo-sd1</DefaultValue>
+    <ExampleValue>amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/demo-sd1</ExampleValue>
+    <SortOrder>8</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>where</Name>
+    <Description>Limit the where clause</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>IsActive=1</ExampleValue>
+    <SortOrder>9</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>output</Name>
+    <Description>Output file name</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>output.json</ExampleValue>
+    <SortOrder>10</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>help</Name>
+    <Description>Get help on a given topic</Description>
+    <DataType>bool</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <DefaultValue>FALSE</DefaultValue>
+    <ExampleValue>specific topic</ExampleValue>
+    <SortOrder>11</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>action</Name>
+    <Description>The specific command to execute.</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>AddCell</ExampleValue>
+    <SortOrder>12</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>maxpages</Name>
+    <Description>Maximum number of pages to return in the results</Description>
+    <DataType>int</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>-maxpages 3</ExampleValue>
+    <SortOrder>13</SortOrder>
+  </CommandLineArg>
+  <CommandLineArg>
+    <Name>view</Name>
+    <Description>Which view in the data source to pull data from.</Description>
+    <DataType>string</DataType>
+    <IsOptional>TRUE</IsOptional>
+    <IsList>FALSE</IsList>
+    <ExampleValue>-view 'Summary Data'</ExampleValue>
+    <SortOrder>14</SortOrder>
+  </CommandLineArg>
+</CommandLineArgs>

@@ -1,0 +1,292 @@
+{
+  "HiddenPaths": [],
+  "ExpandedPaths": [],
+  "ShowHidden": false,
+  "ShowAllFiles": false,
+  "CurrentPath": null,
+  "SaveDisabled": false,
+  "SSoTmeProjectId": "45a4ee1b-0c77-40fa-9bfd-44c9d567293d",
+  "Name": "demo-sd1",
+  "RootPath": "C:\\Users\\auto1\\go\\src\\github.com\\effortlessapi\\dave-clark\\sd1",
+  "ProjectSettings": [
+    {
+      "ProjectSettingId": "3df15eff-d25d-4ba9-ae9b-f6c82b7cd612",
+      "Name": "project-name",
+      "Value": "demo-sd1"
+    },
+    {
+      "ProjectSettingId": "5e421284-8add-480d-bec1-8e84c1720b26",
+      "Name": "make-fks-collections",
+      "Value": "true"
+    },
+    {
+      "ProjectSettingId": "be38f7bb-d637-4d90-b8dc-09069d98509c",
+      "Name": "serialize-to-original-names",
+      "Value": "true"
+    },
+    {
+      "ProjectSettingId": "a812c16f-974d-4aae-a0d3-68ea4cc0634b",
+      "Name": "list-suffix",
+      "Value": "Expanded"
+    },
+    {
+      "ProjectSettingId": "40484594-d24a-4e96-8551-f72c99caea63",
+      "Name": "include-load-methods",
+      "Value": "false"
+    },
+    {
+      "ProjectSettingId": "71f01193-aad4-409b-8e17-b90bb99bddf1",
+      "Name": "init-lists",
+      "Value": "false"
+    },
+    {
+      "ProjectSettingId": "928dbe3b-5324-4dea-832c-c7aa8044ae48",
+      "Name": "legacy",
+      "Value": "false"
+    },
+    {
+      "ProjectSettingId": "928dbe3b-5324-4dea-832c-c7aa8044ae48",
+      "Name": "dataclasses-namespace",
+      "Value": "EAPI.CLI.Lib.DataClasses"
+    },
+    {
+      "ProjectSettingId": "085c785c-4f25-498b-9b1f-0e80a4f41f84",
+      "Name": "amqps",
+      "Value": "amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/demo-sd1"
+    }
+  ],
+  "ProjectTranspilers": [
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "ddeef526-5399-4be1-a676-8c64961e549d",
+        "AccountHolderId": "b592f368-225c-4fdf-828e-c576e46ee229",
+        "Name": "SSoT",
+        "DisplayName": "S So T",
+        "Description": "SSoT",
+        "CreatedOn": "2019-07-14T22:53:06.39",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-Tyh0VzIlD45ZbIi7jayjQQ",
+        "LowerName": "ssot",
+        "UpperName": "SSOT",
+        "LowerHyphenName": "s-so-t",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "07e943f7-ad3a-4e7f-94ac-b5f05cc6e6e8",
+            "TranspilerId": "ddeef526-5399-4be1-a676-8c64961e549d",
+            "Name": "v1",
+            "CreatedOn": "2019-07-14T22:53:07.297",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "59d52a51-a25e-4d84-8be6-cee97a17adf6",
+      "Name": "SSoT",
+      "RelativePath": "",
+      "CommandLine": "effortless/ssot"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "595b7fe7-7f64-44c2-b48c-d096d997211f",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToCSharpPOCOs",
+        "DisplayName": "Odxml To C Sharp P O C Os",
+        "Description": "Odxml To CSharp POCOs",
+        "CreatedOn": "2017-09-07T17:35:30.24",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-1udZlHg208qUf6jrCpeFVg",
+        "LowerName": "odxmltocsharppocos",
+        "UpperName": "ODXMLTOCSHARPPOCOS",
+        "LowerHyphenName": "odxml-to-c-sharp-p-o-c-os",
+        "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "Category": "dot-net",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "a52a5130-bd3c-4974-8def-374cd52a4592",
+            "TranspilerId": "595b7fe7-7f64-44c2-b48c-d096d997211f",
+            "Name": "v1",
+            "CreatedOn": "2017-09-07T17:35:33.567",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "822b8b8b-d293-484a-9531-3c2b128599e1",
+      "Name": "OdxmlToCSharpPOCOs",
+      "RelativePath": "/DotNet/CLIClassLibrary/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml -p airtable=true  -p include-collections=false"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "6dffda43-46a9-482a-9eca-c9061ab22fef",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "CsvToXml",
+        "DisplayName": "Csv To Xml",
+        "Description": "Converts a CSV File into an XML File where the names of the elemnts are derived from the column names",
+        "CreatedOn": "2017-06-02T15:52:41.903",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-oTOwWY09y9fflImFqdwieA",
+        "LowerName": "csvtoxml",
+        "UpperName": "CSVTOXML",
+        "LowerHyphenName": "csv-to-xml",
+        "ReadMeMD": "Turns a csv file into an xml file.  It uses the CSV Column Headers as the Element names within the Xml.",
+        "InputDescriptionMD": "A CSV File Data.csv:\r\n\r\nFoo, Bar, Baz\r\n1, 2, 3\r\n3, 2, 1",
+        "OutputDescriptionMD": "An Xml File\r\n<Datas>\r\n   <Data>\r\n      <Foo> 1 </Foo>\r\n      <Bar> 2 </Bar>\r\n      <Baz> 3 </Baz>\r\n   </Data>\r\n   <Data>\r\n      <Foo> 3 </Foo>\r\n      <Bar> 2 </Bar>\r\n      <Baz> 1 </Baz>\r\n   </Data>\r\n </Datas>",
+        "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
+        "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "22d43219-5632-4728-94b5-8022915aed07",
+            "TranspilerId": "6dffda43-46a9-482a-9eca-c9061ab22fef",
+            "Name": "v1",
+            "CreatedOn": "2017-06-02T15:52:51.403",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "c052ae27-7c0b-454d-aa58-2fdd8b726ea0",
+      "Name": "CsvToXml",
+      "RelativePath": "/SSoT",
+      "CommandLine": "codee42/csv-to-xml -i ./CommandLineArgs.csv"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "9e973baf-62e7-4196-8aba-30b4d91cca46",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "XmlToPlossumCmdLineOptions",
+        "DisplayName": "Xml To Plossum Cmd Line Options",
+        "Description": "Xml To Plossum Cmd Line Options",
+        "CreatedOn": "2020-08-11T21:45:27.813",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-8f6Rk-Y5WPyumEUYp-NDXw",
+        "LowerName": "xmltoplossumcmdlineoptions",
+        "UpperName": "XMLTOPLOSSUMCMDLINEOPTIONS",
+        "LowerHyphenName": "xml-to-plossum-cmd-line-options",
+        "InputDescriptionMD": "A Command Line Syntax.  Each row defines one command line options.\r\n - Name\r\n - Description\r\n - Aliases\r\n - DataType\r\n - IsOptional\r\n - IsList\r\n - DefaultValue\r\n - ExampleValue",
+        "ExampleMD": "ssotme CSVToPlossumCmdLineOption -i CLIOptions.xml",
+        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "86bed6e1-340e-402b-96f9-dabe29402071",
+            "TranspilerId": "9e973baf-62e7-4196-8aba-30b4d91cca46",
+            "Name": "v1",
+            "CreatedOn": "2020-08-11T21:45:31.487",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "347fee67-4f17-4427-b59a-fb0a220155f5",
+      "Name": "XmlToPlossumCmdLineOptions",
+      "RelativePath": "/DotNet/CLIClassLibrary",
+      "CommandLine": "XmlToPlossumCmdLineOptions -i ../../SSoT/CommandLineArgs.csv.xml -p handlerName=EAPICLIHandlerBase"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "cf9074b7-4448-474a-adb6-cfffc0911e6c",
+        "Name": "SmqlToCSharpRabbitMQ",
+        "DisplayName": "Smql To C Sharp Rabbit M Q",
+        "Description": "Smql To CSharp RabbitMQ",
+        "CreatedOn": "2017-09-15T22:13:19.003",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen--cLV8iSWptmg1Hc2cu4fzw",
+        "LowerName": "smqltocsharprabbitmq",
+        "UpperName": "SMQLTOCSHARPRABBITMQ",
+        "LowerHyphenName": "smql-to-c-sharp-rabbit-m-q",
+        "ReadMeMD": "Parameters:\r\n - acronym = \"/SMQLexicon/Acronym\" \r\n - payload-type = concat($acronym, 'Payload')\r\n - actor-base-type = concat($acronym, 'ActorBase')\r\n",
+        "InputFileTypeId": "87c1c579-ea4f-47db-a064-f26f9ca1d91e",
+        "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
+        "Category": "rabbitmq",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "b189ce7b-4086-4575-b89d-aafcbe02bba9",
+            "TranspilerId": "cf9074b7-4448-474a-adb6-cfffc0911e6c",
+            "Name": "v1",
+            "CreatedOn": "2017-09-15T22:13:25.117",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "8ba02eba-6bc6-49e2-9c2a-afb7dcfa56b2",
+      "Name": "SmqlToCSharpRabbitMQ",
+      "RelativePath": "/DotNet/CLIClassLibrary/SassyMQ",
+      "CommandLine": "sassymq/smql-to-csharp-rabbitmq -i ../../../SassyMQ/Lexicon.smql -i ../../../ODXML/DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
+        "Name": "XmlXsltTransform",
+        "DisplayName": "Xml Xslt Transform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset.",
+        "CreatedOn": "2017-08-30T15:45:09.907",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-pwRUdyqwEq8fPN8gkK7ADg",
+        "LowerName": "xmlxslttransform",
+        "UpperName": "XMLXSLTTRANSFORM",
+        "LowerHyphenName": "xml-xslt-transform",
+        "ReadMeMD": "The tool processes the first text file it finds (which is presumed to be in xml format), with the first Xslt file provided, and includes any parameters that are passed to ssotme as well.\r\n\r\nThe output is expected to be a FileSet Xml blob with the results of the transform.",
+        "InputDescriptionMD": "At least 1 input Xml file, An Xslt file to use for the Transform operation and any additional parameters that the Xslt file uses for it's transpiling functionality.  These could be options, values, namespaces, etc.",
+        "OutputDescriptionMD": "A fileset with the result of the Xslt transform, usually including at least 1 or more files.  The example command might produce an HTML Document that describes (in english) the contents of the Xml file.  Essentially a \"report\" about the xml file. ",
+        "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
+        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
+        "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
+        "Category": "type-conversion",
+        "IsRecommended": true,
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "7e941388-752b-4b0f-9631-939b790be10f",
+            "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+            "Name": "v1",
+            "CreatedOn": "2017-08-30T15:45:10.653",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "3c2165b3-d021-4a44-bfa0-feae29cf9512",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/DotNet/CLIClassLibrary/RoleHandlers",
+      "CommandLine": "codee42/xml-xslt-transform -i ../../../SassyMQ/Lexicon.smql -i CreateRoleHandlers.xslt -i ../../../ODXML/DataSchema.odxml"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+Name,Description,DataType,IsOptional,IsList,DefaultValue,ExampleValue,SortOrder,Aliases
+authenticate,Authenticate as a user,string,TRUE,FALSE,,test@test.com,1,
+whoami,Check who you are currently operating as,bool,TRUE,FALSE,,whoami,2
+reloadCache,"Reload cache of project types, plans and such",bool,TRUE,FALSE,FALSE,FALSE,3
+demoPassword,the user's password,string,TRUE,FALSE,,pwd123,3,
+bodyData,Raw data provided,string,TRUE,FALSE,,{'cell…},5,
+bodyFile,Path to file to use,string,TRUE,FALSE,,Cell.json,6,
+runas,Who to run as,string,FALSE,FALSE,Guest,Admin,7,as
+amqps,AMQPS Connection String,string,FALSE,FALSE,amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/demo-sd1,amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/demo-sd1,8,
+where,Limit the where clause,string,TRUE,FALSE,,IsActive=1,9,
+output,Output file name,string,TRUE,FALSE,,output.json,10,
+help,Get help on a given topic,bool,TRUE,FALSE,FALSE,specific topic,11,
+action,"The specific command to execute.",string,TRUE,FALSE,,AddCell,12
+maxpages,"Maximum number of pages to return in the results",int,TRUE,FALSE,,-maxpages 3,13
+view,"Which view in the data source to pull data from.",string,TRUE,FALSE,,"-view 'Summary Data'",14

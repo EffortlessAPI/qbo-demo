@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EAPICLI": {
+      "commandName": "Project",
+      "commandLineArgs": "-whoami"
+    }
+  }
+}

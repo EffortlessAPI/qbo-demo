@@ -1,0 +1,19 @@
+{
+  "Portfolios": [
+    {
+      "PortfolioId": "rec0hB9JjJjW3C4ZN",
+      "Name": "foo (changed)",
+      "Tagline": "This is a tagline"
+    },
+    {
+      "PortfolioId": "recI1wOyj82cViEtl",
+      "Name": "Music",
+      "Tagline": "asdf"
+    },
+    {
+      "PortfolioId": "reckYsCrJGo5xBoBm",
+      "Name": "Script Ideas",
+      "Tagline": "This is a new tagline (for linda)"
+    }
+  ]
+}
